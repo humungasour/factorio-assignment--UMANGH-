@@ -1,0 +1,26 @@
+﻿Name: Umangh
+Email: mt1221928@iitd.ac.in
+
+
+System Information:
+- OS: macOS
+- CPU: Apple M2
+- RAM: 16GB
+
+
+Programming:
+- Language: Python 3.9.6
+- Libraries:
+  - scipy==1.11.3
+  - numpy==1.26.1
+  - networkx==3.2.1
+
+
+Solver Details:
+- Factory solver implements the 'highs' method from SciPy's linprog for efficient linear programming solutions.
+- Belts solver uses Edmonds-Karp algorithm from NetworkX for maximum flow calculations in factory belt networks.
+- Both solvers are designed to be deterministic with fixed inputs.
+
+
+Additional Notes:
+- This setup ensures robust and efficient optimization for Factorio production balancing assignments.
